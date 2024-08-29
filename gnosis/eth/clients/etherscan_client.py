@@ -67,6 +67,7 @@ class EtherscanClient:
         EthereumNetwork.BASE_SEPOLIA_TESTNET: "https://sepolia.basescan.org",
         EthereumNetwork.HOLESKY: "https://holesky.etherscan.io",
         EthereumNetwork.LINEA_SEPOLIA: "https://sepolia.lineascan.build",
+        EthereumNetwork.SOPHON_TESTNET: "https://explorer.testnet.sophon.xyz",
     }
 
     NETWORK_WITH_API_URL = {
