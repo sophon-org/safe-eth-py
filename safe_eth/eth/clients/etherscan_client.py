@@ -67,7 +67,8 @@ class EtherscanClient:
         EthereumNetwork.BASE_SEPOLIA_TESTNET: "https://sepolia.basescan.org",
         EthereumNetwork.HOLESKY: "https://holesky.etherscan.io",
         EthereumNetwork.LINEA_SEPOLIA: "https://sepolia.lineascan.build",
-        EthereumNetwork.SOPHON_TESTNET: "https://explorer.testnet.sophon.xyz",
+        EthereumNetwork.SOPHON_TESTNET: "https://testnet.sophscan.xyz",
+        EthereumNetwork.SOPHON: "https://sophscan.xyz",
     }
 
     NETWORK_WITH_API_URL = {
@@ -116,6 +117,8 @@ class EtherscanClient:
         EthereumNetwork.BASE_SEPOLIA_TESTNET: "https://api-sepolia.basescan.org/api",
         EthereumNetwork.HOLESKY: "https://api-holesky.etherscan.io",
         EthereumNetwork.LINEA_SEPOLIA: "https://api-sepolia.lineascan.build",
+        EthereumNetwork.SOPHON: "https://api.sophscan.xyz/api",
+        EthereumNetwork.SOPHON_TESTNET: "https://api-sepolia.sophscan.xyz/api",
     }
     HTTP_HEADERS: MutableMapping[str, Union[str, bytes]] = {
         "User-Agent": "curl/7.77.0",
